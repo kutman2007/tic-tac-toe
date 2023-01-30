@@ -1,0 +1,91 @@
+* {margin: 0; padding: 0;}
+body{
+    background-color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: rgb(7, 154, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 10px;
+}
+.content {
+    margin-top: 20px;
+    display: flex;
+    font-family: sans-serif;
+}
+span{
+    color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+}
+#whowins{
+    margin-left: 30px;
+    color: orange;
+}
+.walk{
+    color: blue;
+}
+
+#area {
+    color: aliceblue;
+    width: 156px;
+    border: 5px solid blue;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.cell {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    border: 1px solid blue;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+#curPlyr{
+    color: blue;
+}
+
+.currentPlayer {
+    text-align: center;
+    margin-top: 20px;
+    color: #e3e7e8;
+    width: 140px;
+    font-size: 50px;
+}
+
+.stat {
+    display: flex;
+    font-size: 18px;
+}
+
+.stat table {
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td {
+ 
+    color: orange;
+    border: 2px solid blue;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+@media (max-width:600px) {
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .stat table, .stat th, .stat td {
+        margin-left: 30%;
+        margin-top: 30px;
+    }
+}
