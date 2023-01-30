@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik tak toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TIC TAC TOE</h1>
+    <div class="content">
+
+        <div class="currentPlayer">
+            <span class="walk">Walk: <span id="curPlyr">X</span></span>
+        </div>
+        <div class="who">
+            <span id="whowins">WIN:</span>
+        </div>
+
+        <div id="area"></div>
+
+        <div class="stat">
+            <table>
+                <th colspan="2">Статистика</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="sX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="sO">0</span></td>
+                </tr>
+                <tr>
+                    <td>Ничьи</td>
+                    <td><span id="sD">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="./script.js"></script>
+    </div>
+</body>
+</html>
